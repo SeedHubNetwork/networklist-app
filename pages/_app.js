@@ -3,7 +3,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 import SnackbarController from '../components/snackbar'
-import ShutdownNotice from '../components/shutdownNotice'
+//import ShutdownNotice from '../components/shutdownNotice'
 
 import stores from '../stores/index.js'
 
@@ -45,8 +45,8 @@ function MyApp({ Component, pageProps }) {
       <CssBaseline />
       <Component {...pageProps} changeTheme={ changeTheme } />
       <SnackbarController />
-      { shutdownNoticeOpen &&
-        <ShutdownNotice close={ closeShutdown } />
+      { //shutdownNoticeOpen &&
+        //<ShutdownNotice close={ closeShutdown } />
       }
     </ThemeProvider>
   )

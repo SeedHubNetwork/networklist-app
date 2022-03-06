@@ -10,10 +10,10 @@ export default function shutdownNotice({ close }) {
         <div className={classes.warningContainer}>
           <PowerSettingsNewIcon className={ classes.warningIcon } />
           <Typography className={classes.para2} align='center'>
-            Chainlist service will no longer be available from 03 April 2022.
+            Chainlist service will no longer be available from 03 April 2022 and it will be renamed as Networklist
           </Typography>
           <Typography className={classes.para2} align='center'>
-          Seed Hub decided to support and maintain Chainlist service voluntarily.
+          Seed Hub decided to support and maintain Networklist service voluntarily.
           </Typography>
           <div className={ classes.buttonsContainer }>
             <Button
